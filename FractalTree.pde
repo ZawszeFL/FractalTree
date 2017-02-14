@@ -74,6 +74,7 @@ public void drawBranches(int x,int y, double branchLength, double angle)
 	if(branchAngle>=0.6)
 	{
 		branchAngle=0.1;
+		time=0.5;
 		branchLength=branchLength*fractionLength;
 	}
 
