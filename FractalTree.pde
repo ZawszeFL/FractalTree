@@ -2,20 +2,20 @@ private double fractionLength = .75;
 private int smallestBranch = 10	; 
 private double branchAngle = .2;  
 private double time=0.5;
-//Rain[] raindrops = new Rain[10];
+Rain[] raindrops = new Rain[100];
 public void setup() 
 {   
 
 	
 
 	size(1000,1000);    
-	/*for(int i=0; i<10;i+=1)
+	for(int i=0; i<100;i+=1)
   {
     raindrops[i]= new Rain();
 
 
   }
-  */
+  
 
 	
 } 
@@ -30,12 +30,12 @@ public void draw()
 	
 
 	drawBranches(500,750,150,3*Math.PI/2);  //will add later 
-/*for(int i=0; i<10;i+=1)
+for(int i=0; i<100;i+=1)
   {
     raindrops[i].show();
     raindrops[i].move();
   }
-*/
+
 
 
 
