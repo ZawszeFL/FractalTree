@@ -65,7 +65,7 @@ public void drawBranches(int x,int y, double branchLength, double angle)
 		drawBranches(endX2,endY2,branchLength,angle2);
 	}
 
-	if(time>branchAngle)
+	/*if(time>branchAngle)
 {
 	
 	time+=0.6;
@@ -81,7 +81,7 @@ public void drawBranches(int x,int y, double branchLength, double angle)
 
 	redraw();
 }
-
+*/
 } 
 class Rain
 {
@@ -119,7 +119,7 @@ void keyPressed()
 	}
 	if(key=='w')
 	{
-		if(fractionLength<.75)
+		if(fractionLength<.8)
 		{
 			fractionLength+=.03;
 		}
